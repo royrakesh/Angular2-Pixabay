@@ -1,0 +1,320 @@
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+[1;33mdiff --git a/.editorconfig b/.editorconfig[m
+[1;33mnew file mode 100644[m
+[1;33mindex 0000000..6e87a00[m
+[1;33m--- /dev/null[m
+[1;33m+++ b/.editorconfig[m
+[1;35m@@ -0,0 +1,13 @@[m
+[1;32m+[m[1;32m# Editor configuration, see http://editorconfig.org[m
+[1;32m+[m[1;32mroot = true[m
+[1;32m+[m
+[1;32m+[m[1;32m[*][m
+[1;32m+[m[1;32mcharset = utf-8[m
+[1;32m+[m[1;32mindent_style = space[m
+[1;32m+[m[1;32mindent_size = 2[m
+[1;32m+[m[1;32minsert_final_newline = true[m
+[1;32m+[m[1;32mtrim_trailing_whitespace = true[m
+[1;32m+[m
+[1;32m+[m[1;32m[*.md][m
+[1;32m+[m[1;32mmax_line_length = off[m
+[1;32m+[m[1;32mtrim_trailing_whitespace = false[m
+[1;33mdiff --git a/.gitignore b/.gitignore[m
+[1;33mnew file mode 100644[m
+[1;33mindex 0000000..ce200cb[m
+[1;33m--- /dev/null[m
+[1;33m+++ b/.gitignore[m
+[1;35m@@ -0,0 +1,35 @@[m
+[1;32m+[m[1;32m# See http://help.github.com/ignore-files/ for more about ignoring files.[m
+[1;32m+[m
+[1;32m+[m[1;32m# compiled output[m
+[1;32m+[m[1;32m/dist[m
+[1;32m+[m[1;32m/tmp[m
+[1;32m+[m
+[1;32m+[m[1;32m# dependencies[m
+[1;32m+[m[1;32m/node_modules[m
+[1;32m+[m[1;32m/bower_components[m
+[1;32m+[m
+[1;32m+[m[1;32m# IDEs and editors[m
+[1;32m+[m[1;32m/.idea[m
+[1;32m+[m[1;32m/.vscode[m
+[1;32m+[m[1;32m.project[m
+[1;32m+[m[1;32m.classpath[m
+[1;32m+[m[1;32m.c9/[m
+[1;32m+[m[1;32m*.launch[m
+[1;32m+[m[1;32m.settings/[m
+[1;32m+[m
+[1;32m+[m[1;32m# misc[m
+[1;32m+[m[1;32m/.sass-cache[m
+[1;32m+[m[1;32m/connect.lock[m
+[1;32m+[m[1;32m/coverage/*[m
+[1;32m+[m[1;32m/libpeerconnection.log[m
+[1;32m+[m[1;32mnpm-debug.log[m
+[1;32m+[m[1;32mtestem.log[m
+[1;32m+[m[1;32m/typings[m
+[1;32m+[m
+[1;32m+[m[1;32m# e2e[m
+[1;32m+[m[1;32m/e2e/*.js[m
+[1;32m+[m[1;32m/e2e/*.map[m
+[1;32m+[m
+[1;32m+[m[1;32m#System Files[m
+[1;32m+[m[1;32m.DS_Store[m
+[1;32m+[m[1;32mThumbs.db[m
+[1;33mdiff --git a/README.md b/README.md[m
+[1;33mnew file mode 100644[m
+[1;33mindex 0000000..7ba39d0[m
+[1;33m--- /dev/null[m
+[1;33m+++ b/README.md[m
+[1;35m@@ -0,0 +1,9 @@[m
+[1;32m+[m[1;32m# GithubRakesh[m
+[1;32m+[m
+[1;32m+[m[1;32mThis project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22-1.[m
+[1;32m+[m
+[1;32m+[m[1;32m## Development server[m
+[1;32m+[m[1;32mRun `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.[m
+[1;32m+[m
+[1;32m+[m[1;32m##[m
+[1;32m+[m[1;32mA Project to search Pixabay Images[m
+\ No newline at end of file[m
+[1;33mdiff --git a/angular-cli.json b/angular-cli.json[m
+[1;33mnew file mode 100644[m
+[1;33mindex 0000000..e808a10[m
+[1;33m--- /dev/null[m
+[1;33m+++ b/angular-cli.json[m
+[1;35m@@ -0,0 +1,69 @@[m
+[1;32m+[m[1;32m{[m
+[1;32m+[m[1;32m  "project": {[m
+[1;32m+[m[1;32m    "version": "1.0.0-beta.22-1",[m
+[1;32m+[m[1;32m    "name": "github-rakesh"[m
+[1;32m+[m[1;32m  },[m
+[1;32m+[m[1;32m  "apps": [[m
+[1;32m+[m[1;32m    {[m
+[1;32m+[m[1;32m      "root": "src",[m
+[1;32m+[m[1;32m      "outDir": "dist",[m
+[1;32m+[m[1;32m      "assets": [[m
+[1;32m+[m[1;32m        "assets",[m
+[1;32m+[m[1;32m        "favicon.ico"[m
+[1;32m+[m[1;32m      ],[m
+[1;32m+[m[1;32m      "index": "index.html",[m
+[1;32m+[m[1;32m      "main": "main.ts",[m
+[1;32m+[m[1;32m      "test": "test.ts",[m
+[1;32m+[m[1;32m      "tsconfig": "tsconfig.json",[m
+[1;32m+[m[1;32m      "prefix": "app",[m
+[1;32m+[m[1;32m      "mobile": false,[m
+[1;32m+[m[1;32m      "styles": [[m
+[1;32m+[m[1;32m        "styles.css",[m
+[1;32m+[m[1;32m        "../node_modules/bootstrap/dist/css/bootstrap.min.css",[m
+[1;32m+[m[1;32m        "../node_modules/ekko-lightbox/dist/ekko-lightbox.min.css",[m
+[1;32m+[m[1;32m        "../node_modules/tether/dist/css/tether.min.css"[m
+[1;32m+[m[1;32m      ],[m
+[1;32m+[m[1;32m      "scripts": [[m
+[1;32m+[m[1;32m        "../node_modules/jwarning: LF will be replaced by CRLF in angular-cli.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/app.e2e-spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/app.po.ts.
+The file will have its original line endings in your working directory.
+query/dist/jquery.js",[m
+[1;32m+[m[1;32m            "../node_modules/tether/dist/js/tether.min.js",[m[7;31m [m
+[1;32m+[m[1;32m       "../node_modules/bootstrap/dist/js/bootstrap.min.js",[m[7;31m          [m
+[1;32m+[m[1;32m        "../node_modules/ekko-lightbox/dist/ekko-lightbox.min.js",[m
+[1;32m+[m[1;32m       "./assets/custom.js"[m
+[1;32m+[m[7;31m      [m
+[1;32m+[m[1;32m      ],[m
+[1;32m+[m[1;32m      "environments": {[m
+[1;32m+[m[1;32m        "source": "environments/environment.ts",[m
+[1;32m+[m[1;32m        "dev": "environments/environment.ts",[m
+[1;32m+[m[1;32m        "prod": "environments/environment.prod.ts"[m
+[1;32m+[m[1;32m      }[m
+[1;32m+[m[1;32m    }[m
+[1;32m+[m[1;32m  ],[m
+[1;32m+[m[1;32m  "addons": [],[m
+[1;32m+[m[1;32m  "packages": [],[m
+[1;32m+[m[1;32m  "e2e": {[m
+[1;32m+[m[1;32m    "protractor": {[m
+[1;32m+[m[1;32m      "config": "./protractor.conf.js"[m
+[1;32m+[m[1;32m    }[m
+[1;32m+[m[1;32m  },[m
+[1;32m+[m[1;32m  "test": {[m
+[1;32m+[m[1;32m    "karma": {[m
+[1;32m+[m[1;32m      "config": "./karma.conf.js"[m
+[1;32m+[m[1;32m    }[m
+[1;32m+[m[1;32m  },[m
+[1;32m+[m[1;32m  "defaults": {[m
+[1;32m+[m[1;32m    "styleExt": "css",[m
+[1;32m+[m[1;32m    "prefixInterfaces": false,[m
+[1;32m+[m[1;32m    "inline": {[m
+[1;32m+[m[1;32m      "style": false,[m
+[1;32m+[m[1;32m      "template": false[m
+[1;32m+[m[1;32m    },[m
+[1;32m+[m[1;32m    "spec": {[m
+[1;32m+[m[1;32m      "class": false,[m
+[1;32m+[m[1;32m      "component": true,[m
+[1;32m+[m[1;32m      "directive": true,[m
+[1;32m+[m[1;32m      "module": false,[m
+[1;32m+[m[1;32m      "pipe": true,[m
+[1;32m+[m[1;32m      "service": true[m
+[1;32m+[m[1;32m    }[m
+[1;32m+[m[1;32m  }[m
+[1;32m+[m[1;32m}[m
+[1;33mdiff --git a/e2e/app.e2e-spec.ts b/e2e/app.e2e-spec.ts[m
+[1;33mnew file mode 100644[m
+[1;33mindex 0000000..7c9dfd0[m
+[1;33m--- /dev/null[m
+[1;33m+++ b/e2e/app.e2e-spec.ts[m
+[1;35m@@ -0,0 +1,14 @@[m
+[1;32m+[m[1;32mimport { GithubRakeshPage } from './app.po';[m
+[1;32m+[m
+[1;32m+[m[1;32mdescribe('github-rakesh App', function() {[m
+[1;32m+[m[1;32m  let page: GithubRakeshPage;[m
+[1;32m+[m
+[1;32m+[m[1;32m  beforeEach(() => {[m
+[1;32m+[m[1;32m    page = new GithubRakeshPage();[m
+[1;32m+[m[1;32m  });[m
+[1;32m+[m
+[1;32m+[m[1;32m  it('should display message saying app works', () => {[m
+[1;32m+[m[1;32m    page.navigateTo();[m
+[1;32m+[m[1;32m    expect(page.getParagraphText()).toEqual('app works!');[m
+[1;32m+[m[1;32m  });[m
+[1;32m+[m[1;32m});[m
+[1;33mdiff --git a/e2e/app.po.ts b/e2e/app.po.ts[m
+[1;33mnew file mode 100644[m
+[1;33mindex 0000000..07fbee7[m
+[1;33m--- /dev/null[m
+[1;33m+++ b/e2e/app.po.ts[m
+[1;35m@@ -0,0 +1,11 @@[m
+[1;32m+[m[1;32mimport { browser, element, by } from 'protractor';[m
+[1;32m+[m
+[1;32m+[m[1;32mexport class GithubRakeshPage {[m
+[1;32m+[m[1;32m  navigateTo() {[m
+[1;32m+[m[1;32m    return browser.get('/');[m
+[1;32m+[m[1;32m  }[m
+[1;32m+[m
+[1;32m+[m[1;32m  getParagraphText() {[m
+[1;32m+[m[1;32m    return element(by.css('app-root h1')).getText();[m
+[1;32m+[m[1;32m  }[m
+[1;32m+[m[1;32m}[m
+[1;33mdiff --git a/e2e/tsconfig.json b/e2e/tsconfig.json[m
+[1;33mnew file mode 100644[m
+[1;33mindex 0000000..656bdb1[m
+[1;33m--- /dev/null[m
+[1;33m+++ b/e2e/tsconfig.json[m
+[1;35m@@ -0,0 +1,16 @@[m
+[1;32m+[m[1;32m{[m
+[1;32m+[m[1;32m  "compileOnSave": false,[m
+[1;32m+[m[1;32m  "compilerOptions": {[m
+[1;32m+[m[1;32m    "declaration": false,[m
+[1;32m+[m[1;32m    "emitDecoratorMetadata": true,[m
+[1;32m+[m[1;32m    "experimentalDecorators": true,[m
+[1;32m+[m[1;32m    "module": "commonjs",[m
+[1;32m+[m[1;32m    "moduleResolution": "node",[m
+[1;32m+[m[1;32m    "outDir": "../dist/out-tsc-e2e",[m
+[1;32m+[m[1;32m    "sourceMap": true,[m
+[1;32m+[m[1;32m    "target": "es5",[m
+[1;32m+[m[1;32m    "typeRoots": [[m
+[1;32m+[m[1;32m      "../node_modules/@warning: LF will be replaced by CRLF in e2e/tsconfig.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in karma.conf.js.
+The file will have its original line endings in your working directory.
+types"[m
+[1;32m+[m[1;32m    ][m
+[1;32m+[m[1;32m  }[m
+[1;32m+[m[1;32m}[m
+[1;33mdiff --git a/karma.conf.js b/karma.conf.js[m
+[1;33mnew file mode 100644[m
+[1;33mindex 0000000..1f2613a[m
+[1;33m--- /dev/null[m
+[1;33m+++ b/karma.conf.js[m
+[1;35m@@ -0,0 +1,43 @@[m
+[1;32m+[m[1;32m// Karma configuration file, see link for more information[m
+[1;32m+[m[1;32m// https://karma-runner.github.io/0.13/config/configuration-file.html[m
+[1;32m+[m
+[1;32m+[m[1;32mmodule.exports = function (config) {[m
+[1;32m+[m[1;32m  config.set({[m
+[1;32m+[m[1;32m    basePath: '',[m
+[1;32m+[m[1;32m    frameworks: ['jasmine', 'angular-cli'],[m
+[1;32m+[m[1;32m    plugins: [[m
+[1;32m+[m[1;32m      require('karma-jasmine'),[m
+[1;32m+[m[1;32m      require('karma-chrome-launcher'),[m
+[1;32m+[m[1;32m      require('karma-remap-istanbul'),[m
+[1;32m+[m[1;32m      require('angular-cli/plugins/karma')[m
+[1;32m+[m[1;32m    ],[m
+[1;32m+[m[1;32m    files: [[m
+[1;32m+[m[1;32m      { pattern: './src/test.ts', watched: false }[m
+[1;32m+[m[1;32m    ],[m
+[1;32m+[m[1;32m    preprocessors: {[m
+[1;32m+[m[1;32m      './src/test.ts': ['angular-cli'][m
+[1;32m+[m[1;32m    },[m
+[1;32m+[m[1;32m    mime: {[m
+[1;32m+[m[1;32m      'text/x-typescript': ['ts','tsx'][m
+[1;32m+[m[1;32m    },[m
+[1;32m+[m[1;32m    remapIstanbulReporter: {[m
+[1;32m+[m[1;32m      reports: {[m
+[1;32m+[m[1;32m        html: 'coverage',[m
+[1;32m+[m[1;32m        lcovonly: './coverage/coverage.lcov'[m
+[1;32m+[m[1;32m      }[m
+[1;32m+[m[1;32m    },[m
+[1;32m+[m[1;32m    angularCli: {[m
+[1;32m+[m[1;32m      config: './angular-cli.json',[m
+[1;32m+[m[1;32m      environment: 'dev'[m
+[1;32m+[m[1;32m    },[m
+[1;32m+[m[1;32m    reporters: config.angularCli && config.angularCli.codeCoverage[m
+[1;32m+[m[1;32m              ? ['progress', 'karma-remap-istanbul'][m
+[1;32m+[m[1;32m              : ['progress'],[m
+[1;32m+[m[1;32m    port: 9876,[m
+[1;32m+[m[1;32m    colors: true,[m
+[1;32m+[m[1;32m    logLevel: config.LOG_INFO,[m
+[1;32m+[m[1;32m    autoWatch: true,[m
+[1;32m+[m[1;32m    browsers: ['Chrome'],[m
+[1;32m+[m[1;32m    singleRun: false[m
+[1;32m+[m[1;32m  });[m
+[1;32m+[m[1;32m};[m
+[1;33mdiff --git a/npm-debug.log.3654040179 b/npm-debug.log.3654040179[m
+[1;33mnew file mode 100644[m
+[1;33mindex 0000000..e69de29[m
+[1;33mdiff --git a/package.json b/package.json[m
+[1;33mnew file mode 100644[m
+[1;33mindex 0000000..7020d57[m
+[1;33m--- /dev/null[m
+[1;33m+++ b/package.json[m
+[1;35m@@ -0,0 +1,56 @@[m
+[1;32m+[m[1;32m{[m
+[1;32m+[m[1;32m  "name": "angular2-pixabay",[m
+[1;32m+[m[1;32m  "version": "0.0.0",[m
+[1;32m+[m[1;32m  "license": "MIT",[m
+[1;32m+[m[1;32m  "angular-cli": {},[m
+[1;32m+[m[1;32m  "repository": {[m
+[1;32m+[m[1;32m        "type": "git",[m
+[1;32m+[m[1;32m        "url": "https://github.com/royrakesh/Angular2-Pixabay.git"[m
+[1;32m+[m[1;32m    },[m
+[1;32m+[m[1;32m  "scripts": {[m
+[1;32m+[m[1;32m    "start": "ng serve",[m
+[1;32m+[m[1;32m    "lint": "tslint \"src/**/*.ts\"",[m
+[1;32m+[m[1;32m    "test": "ng test",[m
+[1;32m+[m[1;32m    "pree2e": "webdriver-manager update",[m
+[1;32m+[m[1;32m    "e2e": "protractor"[m
+[1;32m+[m[1;32m  },[m
+[1;32m+[m[1;32m  "private": true,[m
+[1;32m+[m[1;32m  "dependencies": {[m
+[1;32m+[m[1;32m    "@angular/common": "2.2.3",[m
+[1;32m+[m[1;32m    "@angular/compiler": "2.2.3",[m
+[1;32m+[m[1;32m    "@angular/core": "2.2.3",[m
+[1;32m+[m[1;32m    "@angular/forms": "2.2.3",[m
+[1;32m+[m[1;32m    "@angular/http": "2.2.3",[m
+[1;32m+[m[1;32m    "@angular/platform-browser": "2.2.3",[m
+[1;32m+[m[1;32m    "@angular/platform-browser-dynamic": "2.2.3",[m
+[1;32m+[m[1;32m    "@angular/router": "3.2.3",[m
+[1;32m+[m[1;32m    "bootstrap": "^4.0.0-alpha.5",[m
+[1;32m+[m[1;32m    "core-js": "^2.4.1",[m
+[1;32m+[m[1;32m    "ekko-lightbox": "^5.0.0",[m
+[1;32m+[m[1;32m    "jquery": "^3.1.1",[m
+[1;32m+[mwarning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in protractor.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.module.ts.
+The file will have its original line endings in your working directory.

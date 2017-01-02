@@ -1,0 +1,18 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #eee;
+
+}
+
+.text-muted {
+    color: #818a91!important;
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+     padding: 20px;
+    font-weight: 600;
+}
+
